@@ -1,6 +1,6 @@
+import streamlit as st
 import pymongo
 import google.generativeai as genai  # Assuming google.generativeai is for Gemini API
-import streamlit as st
 
 try:
   genai.configure(api_key=st.secrets["GEMINIKEY"])
