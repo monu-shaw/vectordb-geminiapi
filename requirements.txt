@@ -1,2 +1,3 @@
-google-generativeai
 pymongo
+google-generativeai
+streamlit
